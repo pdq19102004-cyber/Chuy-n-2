@@ -1,0 +1,32 @@
+cách chạy prj mở git(cmd) trong qlsv, sau đó chạy lệnh:
+	php artisan serve
+đường link mặc định: http://127.0.0.1:8000/
+
+chạy lệnh dưới để tạo dtbs và đẩy dữ liệu lên sql
+ php artisan migrate:fresh
+
+fix lỗi không chạy được:
+
+composer install
+cp .env.example .env
+php artisan key:generate
+
+2, mở cmd chạy:
+   composer dump-autoload
+   php artisan db:seed
+
+Để cài đặt thư viện "barryvdh/laravel-dompdf" trong Laravel, bạn có thể làm theo các bước sau:
+
+1. Mở terminal và di chuyển vào thư mục dự án Laravel của bạn.
+
+2. Chạy lệnh sau để cài đặt "barryvdh/laravel-dompdf" thông qua Composer:
+
+```
+composer require barryvdh/laravel-dompdf
+```
+
+Ngân hàng: NCB
+Số thẻ: 9704198526191432198
+Tên chủ thẻ:NGUYEN VAN A
+Ngày phát hành:07/15
+Mật khẩu OTP:123456
